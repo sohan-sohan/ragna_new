@@ -1,0 +1,15 @@
+[project]
+name = "ragna-actual"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0.20",
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "pymupdf>=1.26.4",
+    "python-multipart>=0.0.20",
+    "streamlit>=1.49.0",
+    "uvicorn>=0.35.0",
+]

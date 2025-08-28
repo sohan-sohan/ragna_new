@@ -1,2 +1,0 @@
-# ragna_new
-RAG
