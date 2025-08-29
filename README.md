@@ -4,6 +4,8 @@ A Retrieval Augmented Generation app
 
 Uses Streamlit, FastAPI, ChromaDB and the OpenRouter API
 
+For a detailed explantion, read [this](./ARCHITECTURE.md)
+
 ## Steps to run
 
 - First, you need to have the `uv` package manager installed, you can do that [here](https://docs.astral.sh/uv/)
