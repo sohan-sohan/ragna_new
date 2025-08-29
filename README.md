@@ -18,8 +18,9 @@ uv sync # sets up the virtual environment with dependencies
 source .venv/bin/activate # activate the virtual environment that uv set up
 streamlit run frontend.py # runs frontend server
 ```
-- Open another terminal and run:
+- Open another terminal, `cd` into the `ragna_new` folder again, and run:
 ```bash
+source .venv/bin/activate # activate the virtual environment that uv set up
 uvicorn backend:app --reload # runs the backend server
 ```
 - The app will open in your browser
