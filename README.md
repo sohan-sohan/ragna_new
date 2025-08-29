@@ -6,13 +6,17 @@ Uses Streamlit, FastAPI, ChromaDB and the OpenRouter API
 
 ## Steps to run
 
-- Clone the git repository
+- First, you need to have the `uv` package manager installed, you can do that [here](https://docs.astral.sh/uv/)
+- Clone the git repository using:
+```bash
+git clone https://github.com/sohan-sohan/ragna_new.git
+```
 - `cd` into `ragna_new`
-- Create an OpenRouter API key and save the following into a `.env` file:
+- Create an OpenRouter API key [here](https://openrouter.ai/) and save the following into a `.env` file:
 ```bash
 API_KEY = <your API key>
 ```
-- Run the following commands:
+- Open a terminal and run the following commands:
 ```bash
 uv sync # sets up the virtual environment with dependencies
 source .venv/bin/activate # activate the virtual environment that uv set up
