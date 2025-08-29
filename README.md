@@ -4,7 +4,7 @@ A Retrieval Augmented Generation app
 
 Uses Streamlit, FastAPI, ChromaDB and the OpenRouter API
 
-For a detailed explantion, read [this](./ARCHITECTURE.md)
+For a detailed explantion, read [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ## Steps to run
 
