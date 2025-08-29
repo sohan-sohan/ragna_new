@@ -14,8 +14,12 @@ API_KEY = <your API key>
 ```
 - Run the following commands:
 ```bash
-uv sync # sets up dependencies
+uv sync # sets up the virtual environment with dependencies
+source .venv/bin/activate # activate the virtual environment that uv set up
 streamlit run frontend.py # runs frontend server
-uvicorn backend:app --reload # runs backend server
+```
+- Open another terminal and run:
+```bash
+uvicorn backend:app --reload # runs the backend server
 ```
 - The app will open in your browser
